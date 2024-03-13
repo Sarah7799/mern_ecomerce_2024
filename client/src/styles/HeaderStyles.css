@@ -1,0 +1,19 @@
+.badge:after{
+    content:attr(value);
+    font-size:14px;
+    color: black;
+    padding: 0 7px;
+    position:relative;
+    left:-6px;
+    top:-10px;
+    opacity:0.9;
+
+}
+
+.fa-md{
+    color: black;
+     height: 20px;
+    width: 0.2rem; 
+    font-size: 15px;
+    margin-right: 8px;
+}
