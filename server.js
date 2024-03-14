@@ -33,7 +33,7 @@ app.use("/api/v1/product", productRoutes);
 //   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 // });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on ${process.env.DEV_MODE} mode on ${PORT}`);
 });
